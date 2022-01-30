@@ -11,7 +11,7 @@ import SwiftUI
 struct EmployeeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmployeeListView(viewModel: EmployeeListViewModel())
         }
     }
 }
